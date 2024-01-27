@@ -1,3 +1,13 @@
+# -------------------------------------------------------------------------------------------------------------------------------#
+# Rastreamento de Objeto com OpenCV usando o OpticalFlow Sparse
+
+#O Optical Flow Sparse é uma técnica de visão computacional que calcula o movimento aparente de pontos-chave específicos em uma 
+#sequência de imagens. Ao contrário do Optical Flow Denso, que calcula o vetor de movimento para todos os pixels da imagem, 
+#o Optical Flow Sparse se concentra em pontos selecionados. Isso o torna mais eficiente computacionalmente, sendo adequado para 
+#situações em que a densidade de pontos a serem rastreados pode ser reduzida sem comprometer a precisão do movimento estimado, 
+#como em tarefas de rastreamento de objetos específicos em vídeos.
+# -------------------------------------------------------------------------------------------------------------------------------#
+
 import cv2
 import numpy as np
 

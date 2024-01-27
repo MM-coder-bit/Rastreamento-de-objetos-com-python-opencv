@@ -1,3 +1,12 @@
+# -------------------------------------------------------------------------------------------------------------------------------#
+# Rastreamento de Objeto com OpenCV usando o OpticalFlow Dense
+
+# O Optical Flow Denso (Dense Optical Flow) é uma técnica de visão computacional que calcula o movimento aparente dos pixels em uma 
+# sequência de imagens. Diferente do Optical Flow tradicional, que opera em pontos específicos, o Dense Optical Flow calcula o vetor 
+# de movimento para todos os pixels da imagem. Isso proporciona uma representação mais detalhada do movimento, sendo útil em aplicações 
+# como rastreamento de objetos, análise de fluxo em vídeos e detecção de padrões de movimento em imagens.
+# -------------------------------------------------------------------------------------------------------------------------------#
+
 import cv2
 import numpy as np
 

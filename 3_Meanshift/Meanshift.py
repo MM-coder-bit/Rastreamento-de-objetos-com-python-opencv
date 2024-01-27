@@ -1,3 +1,12 @@
+# pip install imutils
+# -------------------------------------------------------------------------------------------------------------------------------#
+# Rastreamento de Objeto com OpenCV usando o Meanshift
+
+#O algoritmo Meanshift é uma técnica de segmentação de objetos em imagens. Ele ajusta iterativamente a posição de uma janela para 
+#a região de maior densidade de pontos de uma distribuição de cores, buscando convergir para o centro (média) da região. 
+#Isso é útil para rastreamento de objetos em movimento ou segmentação de regiões de interesse em uma imagem
+# -------------------------------------------------------------------------------------------------------------------------------#
+
 # Rastreamento de Objeto com OpenCV
 
 # Importar bibliotecas necessárias

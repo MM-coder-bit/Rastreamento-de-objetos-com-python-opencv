@@ -1,3 +1,12 @@
+# -------------------------------------------------------------------------------------------------------------------------------#
+# Rastreamento de Objeto com OpenCV usando o CAMshift
+
+# O algoritmo CAMshift (Continuous Adaptive Mean Shift) da OpenCV é uma extensão do algoritmo de rastreamento de objetos Mean Shift. 
+# Ele é usado para rastrear objetos em sequências de vídeo. O CAMshift ajusta dinamicamente o tamanho e a forma da janela de busca 
+# com base na distribuição de pixels dentro da janela. Isso permite que o algoritmo se adapte a mudanças na escala e na orientação 
+# do objeto ao longo do tempo, tornando-o mais robusto para o rastreamento contínuo em vídeos
+# -------------------------------------------------------------------------------------------------------------------------------#
+
 # Importar bibliotecas necessárias
 import numpy as np  # Para operações com arrays
 import cv2  # Para processamento de imagens
@@ -8,7 +17,7 @@ import time  # Para pausas e temporizações
 cap = VideoStream(src=0).start()  # Iniciar a transmissão da webcam
 time.sleep(1.0)  # Pausa para a câmera iniciar
 
-cap = cv2.VideoCapture(0)
+cap = cv2.VideoCapture(1)
 
 # 2. Selecionar a região de interesse (ROI)
 ret, frame = cap.read()  # Capturar um frame inicial

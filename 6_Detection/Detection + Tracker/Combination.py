@@ -1,3 +1,12 @@
+# -------------------------------------------------------------------------------------------------------------------------------#
+# Detecção e astreamento de Objeto com OpenCV 
+
+# O código abaixo é uma demonstração de  como detectar e rastrear um objeto em imagens utilizando a biblioteca Opencv, algoritmos esses:
+#  - Cascade fullbody
+#  - Tracker CSRT 
+#  - Tracker MOSSE
+# -------------------------------------------------------------------------------------------------------------------------------#
+
 # Importar as bibliotecas OpenCV e sys, além de randint do módulo random
 import cv2
 import sys
@@ -21,7 +30,7 @@ if not ok:
     sys.exit()
 
 # Carregar o classificador em cascata para detecção de corpos inteiros
-cascade = cv2.CascadeClassifier('Detection/cascade/fullbody.xml')
+cascade = cv2.CascadeClassifier('6_Detection/cascade/fullbody.xml')
 
 # Função para detectar corpos inteiros usando o classificador em cascata
 def detectar():
