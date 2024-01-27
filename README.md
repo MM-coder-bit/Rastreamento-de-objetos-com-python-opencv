@@ -5,7 +5,7 @@
 
 Este repositório contém implementações de diversos algoritmos de rastreamento de objetos utilizando a biblioteca OpenCV. O projeto é dividido em diferentes pastas, cada uma explorando um conjunto específico de algoritmos.
 
-!['Video demonstrativo'](imagens\readme\CSRT.gif)
+<img src="imagens\readme\CSRT.gif" alt="Alt text" width="1000"/> 
 
 ## Algoritmos de Rastreamento
 
