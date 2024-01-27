@@ -5,6 +5,8 @@
 
 Este repositório contém implementações de diversos algoritmos de rastreamento de objetos utilizando a biblioteca OpenCV. O projeto é dividido em diferentes pastas, cada uma explorando um conjunto específico de algoritmos.
 
+!['Video demonstrativo'](imagens\readme\CSRT.gif)
+
 ## Algoritmos de Rastreamento
 
 ### 🚶‍♂️ 0_Single_Tracking
@@ -53,8 +55,8 @@ Para executar o script do Goturn, localizado na pasta `2_Goturn`, é necessário
 
 Além disso, para visualizar os vídeos de teste associados a cada algoritmo, basta clicar no ícone correspondente abaixo. Isso fornecerá uma demonstração visual do desempenho de cada algoritmo em situações específicas de rastreamento de objetos.
 
-<a href="https://drive.google.com/drive/folders/14r7fHvlUbWjgm66KyGDcGR-xcjIYlUjg?usp=drive_link/" target="_blank"><img src="imagens\readme\drive.png" target="_blank" width="150">
-</a> <a href="https://drive.google.com/drive/folders/1cXhcl8dV48tjO7_Y8LiiiS1a5MVXKppQ?usp=drive_link" target="_blank"><img src="imagens\readme\video.jpg" target="_blank" width="100"></a>
+ - <a href="https://drive.google.com/drive/folders/14r7fHvlUbWjgm66KyGDcGR-xcjIYlUjg?usp=drive_link/" target="_blank"><img src="imagens\readme\drive.png" target="_blank" width="150">
+- </a> <a href="https://drive.google.com/drive/folders/1cXhcl8dV48tjO7_Y8LiiiS1a5MVXKppQ?usp=drive_link" target="_blank"><img src="imagens\readme\video.jpg" target="_blank" width="100"></a>
 
 # :wrench: Support
 
